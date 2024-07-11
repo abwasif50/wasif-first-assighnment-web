@@ -74,14 +74,25 @@ text-align: left;
 
 
 }
+
+
 .inspiration{
-height: 777px;
-    width: 1140px;
-    display: flex;
-    gap: 50px;
+      text-align: center;
 }
 .inspiration p{
 
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+
+
+}
+
+.current-target h2{
+text-align: center;
+
+}
+.current-target {
     text-align: center;
 }
 .reasons{
