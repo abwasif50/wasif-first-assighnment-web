@@ -2,6 +2,12 @@ main{
 max-width: 1140px;
 margin: auto;
 }
+main section{
+margin-top: 80px;
+margin-bottom: 100px;
+
+
+}
 .banner{
 background-image: url('../assets/Hero-bg.png');
 text-align: center;
@@ -25,13 +31,14 @@ margin: auto;
 
 margin-top: 70px;
 text-align: center;
-background-color: #ffffff;
+background-color:#ffffff;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 16px;
     max-width: 1046px;
     height: 1395px;
 
+    background: rgba(13, 19, 33, 0.02);
 }
 .why-web-dev h1{
 
@@ -88,12 +95,17 @@ text-align: left;
 
 }
 
-.current-target h2{
+
+.text-center{
 text-align: center;
 
-}
-.current-target {
-    text-align: center;
+}\
+
+.targets p{
+    border-radius: 16px;
+
+    background: rgba(13, 19, 33, 0.02);
+
 }
 .reasons{
     contain: flex;
@@ -112,4 +124,31 @@ align-items: center;
 padding: 8px 13px 10px 13px;
 text-decoration: none;
 
+}
+/* target-section syles */
+.targets-container{
+display: flex;
+text-align: center;
+width: 1100px;
+height: 300px;
+gap: 24px;
+margin: auto;
+
+}
+.target{
+
+    padding: 40px;
+    border-radius: 16px;
+}
+.target-item{
+   background-color:  rgba(255, 223, 0, 0.05);
+
+}
+.target-itemm {
+  background-color:  rgba(0, 76, 232, 0.05);
+
+}
+.target-itemmm{
+
+    background-color: rgba(255, 223, 0, 0.05);
 }
